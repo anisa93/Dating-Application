@@ -1,0 +1,43 @@
+// If you want to override materialize sass variables you can uncomment the following:
+// @import "{poetic:materialize-scss}/sass/components/_color.scss";
+// $primary-color: color("blue", "lighten-2");
+
+@import "{poetic:materialize-scss}/sass/materialize.scss";
+
+/* Universial SCSS declarations go here */
+.brand-logo {
+  margin: 0 10px 0 10px;
+}
+
+.YellowtailLogo {
+    font-family: 'Yellowtail', cursive;
+}
+.brand-logo img{
+    height: 28px;
+    position: relative;
+    margin-right: 10px;
+    top: 3px;
+}
+
+.h1Landing {
+    font-family: 'Yellowtail', cursive;
+    color: #ee6e73;
+}
+
+.msg_page_container {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    left: 0px;
+    padding: 0 10% 0 10%;
+
+    .collection {
+      overflow: scroll;
+      height: 40%;
+    }
+
+    .msg_input_div{
+
+    }
+}
